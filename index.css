@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+.navbar{
+    /* border: 2px solid black; */
+    height: 90px;
+    background-color: #ebebeb;
+}
+.logo img{
+    height: 40px;
+    margin-top: 26px;
+    margin-left: 66px;
+    
+}
+.search input{
+    margin-left: 318px;
+    position: absolute;
+    margin-top: -50px;
+    padding: 13px;
+    border-radius: 8px;
+    width: 502px;
+    font-size: 19px;
+    border: none;
+    text-align: center;
+    
+}
+.search p{
+    margin-left: 363px;
+    position: absolute;
+    margin-top: -36px;
+    font-size: 23px;
+    
+}
+ul{
+    list-style: none;
+}
+
+ul li{
+    margin-left: 860px;
+    position: absolute;
+    margin-top: -34px;
+    font-size: 20px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+ul li a:hover{
+    color: white;
+}
+ul li:hover{
+    background-color: rgb(50, 50, 219);
+    color: white;
+    height: 40px;
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.cart{
+    margin-left: 1000px;
+    position: absolute;
+    margin-top: -34px;
+    font-size: 20px;
+}
+.cart a{
+text-decoration: none;
+color: black;
+}
+.seller{
+    margin-left: 1100px;
+    position: absolute;
+    margin-top: -34px;
+    font-size: 23px;
+}
+.seller a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    /* border: 2px solid red; */
+    width: 1330px;
+    margin-left: 17px;
+    margin-top: 11px;
+    height: 140px;
+    background-color: #ebebeb;
+    
+
+}
+/* .bike{
+    margin-left: 1172px;
+    margin-top: -600px;
+}
+
+
+.bike img{
+    height: 95px;
+}
+.bike p{
+    font-size: 20px;
+} */
+
+.surf{
+    margin-left: 124px;
+    margin-top: 22px;
+    position: absolute;
+}
+.surf img{
+    height: 70px;
+}
+.surf p{
+    font-size: 20px;
+}
+.phone{
+    margin-left: 123px;
+    position: absolute;
+    margin-top: -96px;
+}
+.fashion{
+    position: absolute;
+    margin-left: 237px;
+    margin-top: -95px;
+}
+.laptop{
+    position: absolute;
+    margin-left: 368px;
+    margin-top: -96px;
+}
+.lcd{
+    position: absolute;
+    margin-left: 486px;
+    margin-top: -96px;
+    background: transparent;
+    text-align: center;
+    mix-blend-mode: multiply;
+}
+.plane{
+    position: absolute;
+    margin-left: 614px;
+    margin-top: -96px;
+}
+.teddy{
+    position: absolute;
+    margin-left: 737px;
+    margin-top: -96px;
+    width: 180px;
+    text-align: center;
+}
+.bike{
+    position: absolute;
+    margin-left: 962px;
+    margin-top: -96px;
+    width: 126px;
+    text-align: center;
+}
+.container2{
+    width: 1330px;
+    margin-left: 17px;
+    margin-top: 11px;
+    height: 220px;
+    background-color: #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* min-height: 100vh; */
+  
+}
+.wrapper{
+    max-width: 1200px;
+    position: absolute;
+
+}
+.wrapper i{
+    height: 46px;
+    text-align: center;
+    line-height: 3;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    width: 46px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 50%;
+}
+.wrapper i:first-child{
+    left:-23px ;
+    display: none;
+}
+.wrapper i:last-child{
+    right:-23px ;
+   
+}
+
+.wrapper .carousel{
+    white-space: nowrap;
+    font-size: 0px;
+    cursor: pointer;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    width: 1351px;
+    margin-left: -75px;
+
+}
+.carousel .dragging{
+    scroll-behavior: auto;
+    cursor: grab;
+}
+.carousel .dragging img{
+    pointer-events: none;
+}
+.carousel img{ 
+height: 220px;
+width: calc(100% / 1);
+object-fit: cover;
+padding: 0 10px;
+mix-blend-mode: multiply;
+margin-left: 14px;
+}
+.carousel img:first-child{
+    margin-left: 0px;
+}
+@media screen and(max-width:900px) {
+    .carousel img{
+        width: calc(100% / 2);
+
+    }
+
+}
+@media screen and(max-width:550px) {
+    .carousel img{
+        width: 100% ;
+
+    }
+
+}
