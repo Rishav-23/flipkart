@@ -1,0 +1,110 @@
+.head{
+    /* border: 2px solid red; */
+width: 286px;
+    height: 344px;
+    font-size: 23px;
+    padding: 12px;
+    margin-left: 685px;
+    margin-top: 80px;
+    background-color: #f7f7f7;
+    border-radius: 12px;
+    
+}
+span a{
+    margin-left: 43px;
+    text-decoration: none;
+}
+
+.head hr{
+    margin-top: 18px;
+}
+.myprofile{
+    margin-left: 18px;
+    margin-top: 18px;
+    font-size: 18px;
+}
+.myprofile a{
+    margin-left: 16px;
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+}
+.myprofile:hover{
+
+    background-color: cornsilk;
+}
+.plus{
+    margin-left: 18px;
+    margin-top: 18px;
+    font-size: 18px;
+}
+.plus a{
+    margin-left: 16px;
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+}
+.plus:hover{
+
+    background-color: cornsilk;
+}
+.order{
+    margin-left: 18px;
+    margin-top: 18px;
+    font-size: 18px;
+}
+.order a{
+    margin-left: 16px;
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+}
+.order:hover{
+
+    background-color: cornsilk;
+}
+.whish{
+    margin-left: 18px;
+    margin-top: 18px;
+    font-size: 18px;
+}
+.whish a{
+    margin-left: 16px;
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+}
+.whish:hover{
+
+    background-color: cornsilk;
+}
+.reward{
+    margin-left: 18px;
+    margin-top: 18px;
+    font-size: 18px;
+}
+.reward a{
+    margin-left: 16px;
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+}
+.reward:hover{
+
+    background-color: cornsilk;
+}
+.gift{
+    margin-left: 18px;
+    margin-top: 18px;
+    font-size: 18px;
+}
+.gift a{
+    margin-left: 16px;
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+}
+.gift:hover{
+
+    background-color: cornsilk;
+}
